@@ -1,0 +1,16 @@
+package org.example.types.serverLog
+
+
+enum class NGINXfields {
+    REMOTE_ADDR,
+    REMOTE_USER,
+    TIME_LOCAL,
+    REQUESTED_METHOD,
+    REQUESTED_URI,
+    REQUESTED_PROTOCOL,
+    STATUS,
+    BODY_BYTES_SENT,
+    HTTP_REFERER,
+    HTTP_USER_AGENT,
+    HTTP_X_FORWARDED_FOR
+}
